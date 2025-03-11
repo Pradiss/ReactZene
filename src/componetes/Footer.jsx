@@ -1,0 +1,120 @@
+
+
+const Footer = () => {
+    return (
+
+        <footer class="bg-black text-white  text-lg-start pt-5 rounded-top-5">
+  
+            <div class="container p-5 ">
+            
+                <div class="row">
+                
+                <div class="col-lg-3 col-md-12 mb-4 mb-md-0 py-4  ">
+                    <img src="./src/assets/react.svg" alt=""  class="img-fluid mb-4 w-50"/>
+                
+                    <p class="col-11">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+                    molestias. 
+                    </p>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0 py-4">
+                    <h5 class="text-uppercase mb-0 mb-3 fw-bold ">Zene</h5>
+
+                    <ul class="list-unstyled">
+                    <li class="mb-2">
+                        <a href="/" class="text-white">Ínicio</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="/categorias" class="text-white">Categoria</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="/perfil" class="text-white">Perfil</a>
+                    </li>
+                    
+                    
+                    </ul>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0 py-4 ">
+                    <h5 class="text-uppercase mb-0 mb-3 fw-bold">Sobre</h5>
+
+                    <ul class="list-unstyled">
+                    <li class="mb-2">
+                        <a href="" class="text-white">Quem Somos</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="#!" class="text-white">Trabalhe Conosco</a>
+                    </li>
+                    
+                 
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0 py-4 ">
+                    <h5 class="text-uppercase mb-0 mb-3 fw-bold">Contato</h5>
+                    <ul class="list-unstyled">
+                    <li class="mb-2">
+                        <a href="#!" class="text-white">E-mail: emaildaempresa@gmail.com
+                        </a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="#!" class="text-white">Telefone: (19) 4002-8922</a>
+                    </li>
+                    <li class="mb-5">
+                        <a href="#!" class="text-white"></a>
+                    </li>
+                    
+                    </ul>
+                    <h5 class="text-uppercase mb-0 mb-3 fw-bold">Redes Socias</h5>
+
+                    <ul class="list-unstyled">
+                    <li class="mb-2">
+                        <i class="bi bi-instagram fs-3 me-3"><a href="#!" class="text-white"></a></i>
+                    
+                        <i class="bi bi-facebook fs-3  me-3"><a href="#!" class="text-white"></a></i>
+
+                        <i class="bi bi-whatsapp fs-3  me-3"><a href="#!" class="text-white"></a></i>
+
+                        <i class="bi bi-linkedin fs-3  me-3"><a href="#!" class="text-white"></a></i>
+                    </li>
+                    
+                    </ul>
+                </div>
+                
+                </div>
+            
+            </div>
+
+            <div class="d-flex justify-content-center align-items-center">
+
+                <hr class="w-75"/>
+            </div>
+            
+            <div class="container d-flex align-items  pb-4  " >
+                
+                <div className="col-3">
+                    <a href="/politica" class="text-white fw-bold">Política de Privacidade</a>
+                </div>
+
+
+                <div className="col-6 text-center">
+                © 2020 Copyright: <a class="text-white fw-bold" href="/">Zene</a>
+                </div>
+
+                <div className="col-3 text-end">
+                    <a href="/termos" class="text-white fw-bold ">Termos de Uso</a>
+                </div>
+            </div>
+            
+        </footer>
+
+
+        
+
+      
+
+    )
+}
+
+export default Footer
