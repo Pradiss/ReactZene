@@ -5,11 +5,9 @@ const Politica = () => {
     return (
         <>
             <Header />
-            <div className="bg-lite space">
-                    <div className="row text-center ">
-                        <h1 className="fw-bold display-4">Política de Privacidade</h1>
-                    </div>
-                </div>
+           
+                    
+               
                 <div className="container my-5">
                     <div className="row">
                         <h2><span >Política Privacidade</span></h2>
@@ -43,6 +41,7 @@ const Politica = () => {
                         </div>
                     </div>
                 </div>
+                
             <Footer />
         </>
     )

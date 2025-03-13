@@ -3,7 +3,7 @@
 const Header = () => {
     return (
    
-    <nav class="navbar navbar-expand-lg  justify-content-center rounded-bottom-5 shadow " >
+    <nav class="navbar navbar-expand-lg  justify-content-center sectionRadius container my-3 mb-4 shadow" >
       <div class=" container d-flex align-items-center p-2   ">
       
       
@@ -15,10 +15,10 @@ const Header = () => {
 
         </div>
 
-        <div class="input-group w-50 ">
-          <input type="text" class="form-control rounded-start-5" value=""/>
+        <div class="input-group w-50  rounded-5 ">
+          <input type="text" class="form-control rounded-start-5 " value=""/>
           
-            <button class="btn btn-white border rounded-end-5 " type="button"><i class="bi bi-search fs-4"></i></button>
+            <button class="btn btn-white border rounded-end-5   " type="button"><i class="bi bi-search fs-4"></i></button>
           
         </div>
        
@@ -49,6 +49,9 @@ const Header = () => {
                 <li class=" bborder nav-item  rounded-5 p-3 me-2 ">
                   <a class="nav-link  fw-bold " aria-current="page" href="/categorias">Categorias</a>
                 </li>
+                <li class=" bborder nav-item  rounded-5 p-3 me-2 ">
+                  <a class="nav-link  fw-bold " aria-current="page" href="/contato">Contato</a>
+                </li>
                 <li class="bborder nav-item rounded-5 p-3 ">
                   <a class="nav-link fw-bold" href="/perfil">Perfil</a>
                 </li>
@@ -62,7 +65,7 @@ const Header = () => {
                     <li>
                       <hr class="dropdown-divider"/>
                     </li>
-                    <li><a class="dropdown-item" href="/sair">Sair</a></li>
+                    <li><a class="dropdown-item" href="/login">Sair</a></li>
                   </ul>
                 </li>
               </ul>

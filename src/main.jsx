@@ -13,6 +13,7 @@ import Cadastro from './pages/Cadastro.jsx'
 import Categorias from './pages/Categorias.jsx'
 import Politica from './pages/Politica.jsx'
 import Termos from './pages/Termos.jsx'
+import Contato from './pages/Contato.jsx'
 
 
 
@@ -27,6 +28,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path="/categorias" element={<Categorias/>}/>
           <Route path="/politica" element={<Politica/>}/>
           <Route path="/termos" element={<Termos/>}/>
+          <Route path="/contato" element={<Contato/>}/>
         </Routes>
     </BrowserRouter>
   </React.StrictMode>

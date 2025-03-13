@@ -41,7 +41,7 @@ const Website = () =>{
                         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
                     </div>
 
-                    <div className="carousel-inner rounded-5 ">
+                    <div className="carousel-inner sectionRadius ">
                         <div className="carousel-item active">
                         <img src="./src/assets/bandateste1.svg" className="d-block w-100 " alt="..."/>
                         <div className="carousel-caption ">
@@ -87,15 +87,15 @@ const Website = () =>{
                         <p className="espacamento">Conheça os talentosos músicos freelancers que, com sua habilidade e paixão pela música, oferecem performances e serviços excepcionais, criando experiências únicas para cada projeto.</p>
                     <div className="row d-flex justify-content-center ">
                         {usuarios.map((objUsuarios) => (
-                        <div className='col-10 col-sm-6 col-md-6 col-lg-3 p-2 '>
-                            <div className='card rounded-5 p-3 shadow ' >
+                        <div className='col-10 col-sm-6 col-md-6 col-lg-3 py-2 p-2 '>
+                            <div className='rounded-5 p-3 sombra' >
                             <img src={objUsuarios.foto} className='card-img-top rounded-5' alt='...'/>
-                                <div className='card-body text-center'>
-                                    <h4 className='card-title text-blak'>{objUsuarios.nome}</h4>
+                                <div className='mt-3 text-center'>
+                                    <h4 className=' text-blak'>{objUsuarios.nome}</h4>
                                     <p className='text-secondary mb-1 text-dark '>{objUsuarios.idInstrumento} | </p>
                                     
-                                    <p className='card-text text-secondary'>{objUsuarios.cidade} | {objUsuarios.preco}</p>
-                                    <a href="" className='btn btn-warning btn-lg rounded-4'>Perfil</a>
+                                    <p className='text-secondary'>{objUsuarios.cidade} | {objUsuarios.preco}</p>
+                                    <a href="" className='btn btn-warning btn-lg rounded-5'>Perfil</a>
                                 </div>
                             </div>
                         </div>
@@ -104,10 +104,10 @@ const Website = () =>{
                 </div>
                 
 
-                <section class=" bg-lite rounded-5  space  ">
+                <section class=" bg-lite sectionRadius space  ">
                     <div class="container p-3">
-                        <h2 id="titulo" class="text-center display-3  fw-bold">Confira nossas categorias</h2>
-                        <p class="text-center ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia commodi
+                        <h2 id="titulo" class="text-center display-3  fw-medium">Confira nossas categorias</h2>
+                        <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia commodi
                             velit, nam,
                             sapiente eos iste quasi tenetur exercitationem vitae corporis, ipsa minus. Quasi nisi eius nostrum ipsa ut.
                             Quidem, culpa?</p>
@@ -131,16 +131,16 @@ const Website = () =>{
 
                         <div class="d-flex justify-content-center align-items-center">
 
-                        <a href="/categorias" class="btn btn-warning btn-lg fw-bold p-3 rounded-4">Veja todas as Categorias</a>
+                        <a href="/categorias" class=" rounded-5 btn btn-warning btn-lg fw-bold p-3 ">Veja todas as Categorias</a>
                         </div>
                     </div>
                     
                 </section>
                 
-                <section class=" space   rounded-5">
+                <section class=" space   ">
                     <div class="container ">
                         <div class="row">
-                            <div class="mt-5 col-lg-6 col-md-12 col-sm-0 px-4  pb-4 rounded-5 shadow " id="img">
+                            <div class="mt-5 col-lg-6 col-md-12 col-sm-0 space borderRadius shadow " id="img">
                         
                             </div>
                 
@@ -159,7 +159,7 @@ const Website = () =>{
                             
                 <section class="space bg-lite">
         
-                    <div class="container">
+                    <div class="container ">
                         <div class="row  ">
                             
                             <div class="mt-5 col-lg-12 col-md-12 col-sm-0 px-4 px-0 pb-4 ">
@@ -209,7 +209,11 @@ const Website = () =>{
                 </section>
 
 
-                <section class="space rounded-bottom-5 bg-lite shadow">
+                <hr className="m-0 "/>
+
+
+
+                <section class="space sectionRadiusEnd bg-lite2 ">
     
 
                     <div class="container">
@@ -320,23 +324,27 @@ const Website = () =>{
                 
 
                 <section class="space">
-                    <div class="container rounded-5 p-4 bg-danger d-flex"> 
+                    <div class="container borderRadius  p-5 sombra  bg-dark d-flex"> 
                         <div class="row">
-                            <div class="mt-5 col-lg-6 col-md-12 col-sm-0 px-4 px-0 pb-4 rounded-5 ">
+                            <div class="mt-5 col-lg-6 col-md-12 col-sm-0 px-4 px-0 pb-4 text-white">
                                 <h4>Encontre o melhores</h4>
                                 <h1 class="" >Freelancer e Bandas da sua Região</h1>
-                                <p>*Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe laboriosam deleniti tenetur quibusdam voluptatum deserunt obcaecati animi 
-                                    optio iste minus possimus consectetur suscipit porro, accusantium sint excepturi. Maiores, praesentium officia.</p>
+                                <p class='mt-5'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe laboriosam deleniti tenetur quibusdam voluptatum deserunt obcaecati animi 
+                                    optio iste minus possimus consectetur suscipit porro.</p>
                                     <a href="/login" class="btn btn-warning btn-md p-3 rounded-4 fw-bold text-capitalize" >Venha fazer parte</a>
                         
-                                </div>
+                               
                          
-                                <div class=" col-lg-6 col-md-12 col-sm-0 px-4 px-0 pb-4 rounded-5 bg-white "  id="img">
+                              
                                 
-                                </div>
+                            </div>
+                            <div className="col-lg-6 col-md-12 col-sm-0 space borderRadius" id="img">
+                                
+                            </div>
                     
                         </div>
                     </div>
+                    
                 </section>
       
                

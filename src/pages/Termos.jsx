@@ -5,11 +5,7 @@ const Termos = () => {
     return (
         <>
             <Header />
-                <div className="bg-lite space">
-                    <div className="row text-center ">
-                        <h1 className="fw-bold display-4">Termos de Uso</h1>
-                    </div>
-                </div>
+                
                 <div className="container my-5">
                     <div className="row">
                         <h2><span style={{ color: "rgb(68, 68, 68)" }}>1. Termos</span></h2>

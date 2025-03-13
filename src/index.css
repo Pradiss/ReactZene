@@ -25,6 +25,44 @@ html {
     }
 }
 
+/* -------------Border Radius  */
+
+.btnRadius{
+  
+    border-radius: 30px;
+    
+
+}
+
+.borderRadius{
+    border-radius: 60px;
+}
+
+.sectionRadiusTop
+{
+    border-radius: 60px 60px 0px 0px;
+}
+.sectionRadiusEnd{
+    border-radius: 0px 0px 60px 60px;
+}
+
+.sectionRadius{
+    border-radius: 60px;
+}
+
+
+
+/* Sombra */
+
+.sombra{
+    box-shadow: 0px 15px 20px rgba(0,0,0, 0.2);
+
+}
+
+
+
+
+
 .bborder{
     background-color: #f8f8f8e8;
     transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
@@ -34,6 +72,14 @@ html {
     background-color: #cecece;
    
 }
+
+
+/* HR */
+
+
+
+
+
 
 
 body{
@@ -74,6 +120,9 @@ p{
 
 .bg-lite{
     background: linear-gradient(to top, #F2F2F2, #BEE4ED);
+}
+.bg-lite2{
+    background: linear-gradient(to top, #BEE4ED, #F2F2F2);
 }
 
 
