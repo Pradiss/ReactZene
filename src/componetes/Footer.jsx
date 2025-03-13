@@ -94,9 +94,9 @@ const Footer = () => {
             </div>
             
             <div class="container d-flex align-items  py-4 mb-5  " >
-            <div class="d-flex justify-content-center align-items-center">
+                    <div class="d-flex justify-content-center align-items-center">
 
-                    <hr className="w-100"/>
+                        <hr className="w-100"/>
                     </div>
 
                 
